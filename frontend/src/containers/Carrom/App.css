@@ -1,0 +1,54 @@
+#container_carrom {
+    display: flex;
+    flex-direction: column;
+    font-family: "Calibri";
+    justify-content: center;
+    padding: 2rem 5rem;
+}
+
+@media screen and (max-width: 700px) {
+    #container_carrom {
+        padding: 0rem 0rem;
+    }
+}
+
+#table_carrom {
+    border-spacing: 0;
+    border: 1px solid #d1cccc;
+}
+
+#tr_carrom:last-child #td_carrom {
+    border-bottom: 0;
+}
+
+#th_carrom,
+#td_carrom {
+    text-align: center;
+    margin: 0;
+    padding: 0.5rem;
+    border-bottom: 1px solid #d1cccc;
+    border-right: 1px solid #d1cccc;
+}
+
+#th_carrom:last-child,
+#td_carrom:last-child {
+    border-right: 0;
+}
+
+#tr_carrom:nth-child(odd) {
+
+    color: #010831;
+}
+
+#tr_carrom:nth-child(even) {
+
+    color: #000000;
+}
+
+#th_carrom.desc {
+    border-bottom: 5px solid #00c3dd;
+}
+
+#th_carrom.asc {
+    border-top: 5px solid orange;
+}
