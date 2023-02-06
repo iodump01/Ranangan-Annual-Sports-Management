@@ -1,0 +1,114 @@
+[
+  {
+    "SportName": "Chess",
+    "NumOfPlayers": 1,
+    "SportsType": "Individual",
+    "ParticipantType": "Both",
+    "Venue": "Reading Hall"
+  },
+  {
+    "SportName": "Carrom",
+    "NumOfPlayers": 1,
+    "SportsType": "Individual",
+    "ParticipantType": "Both",
+    "Venue": "Reading Hall"
+  },
+  {
+    "SportName": "Table Tenis",
+    "NumOfPlayers": 1,
+    "SportsType": "Individual",
+    "ParticipantType": "Both",
+    "Venue": "Reading Hall"
+  },
+  {
+    "SportName": "Cricket",
+    "NumOfPlayers": 15,
+    "SportsType": "Team",
+    "ParticipantType": "Boys",
+    "Venue": "ZES Ground"
+  },
+  {
+    "SportName": "Box Cricket",
+    "NumOfPlayers": 15,
+    "SportsType": "Team",
+    "ParticipantType": "Girls",
+    "Venue": "ZES Ground"
+  },
+  {
+    "SportName": "Basketball",
+    "NumOfPlayers": 15,
+    "SportsType": "Team",
+    "ParticipantType": "Both",
+    "Venue": "Basketball Court"
+  },
+  {
+    "SportName": "Volleyball",
+    "NumOfPlayers": 9,
+    "SportsType": "Team",
+    "ParticipantType": "Both",
+    "Venue": "ZES Ground"
+  },
+  {
+    "SportName": "Kabaddi",
+    "NumOfPlayers": 12,
+    "SportsType": "Team",
+    "ParticipantType": "Both",
+    "Venue": "ZES Ground"
+  },
+  {
+    "SportName": "Kho Kho",
+    "NumOfPlayers": 12,
+    "SportsType": "Team",
+    "ParticipantType": "Both",
+    "Venue": "ZES Ground"
+  },
+  {
+    "SportName": "Throwball",
+    "NumOfPlayers": 14,
+    "SportsType": "Team",
+    "ParticipantType": "Girls",
+    "Venue": "ZES Ground"
+  },
+  {
+    "SportName": "Tug of War",
+    "NumOfPlayers": 6,
+    "SportsType": "Team",
+    "ParticipantType": "Both",
+    "Venue": "ZES Ground"
+  },
+  {
+    "SportName": "Athletics 100",
+    "NumOfPlayers": 1,
+    "SportsType": "Individual",
+    "ParticipantType": "Both",
+    "Venue": "ZES Ground"
+  },
+  {
+    "SportName": "Athletics 400",
+    "NumOfPlayers": 1,
+    "SportsType": "Individual",
+    "ParticipantType": "Both",
+    "Venue": "ZES Ground"
+  },
+  {
+    "SportName": "Athletics Relay",
+    "NumOfPlayers": 4,
+    "SportsType": "Team",
+    "ParticipantType": "Both",
+    "Venue": "ZES Ground"
+  },
+  {
+    "SportName": "Short Put",
+    "NumOfPlayers": 1,
+    "SportsType": "Individual",
+    "ParticipantType": "Both",
+    "Venue": "ZES Ground"
+  },
+  {
+    "SportName": "Badminton",
+    "NumOfPlayers": 1,
+    "SportsType": "Individual",
+    "ParticipantType": "Both",
+    "Venue": "Badminton Court"
+  }
+]

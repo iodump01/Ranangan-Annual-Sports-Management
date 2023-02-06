@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import ProtectedRoute from "./components/ProtectedRoute";
 import AccessibleNavigationAnnouncer from "./components/AccessibleNavigationAnnouncer";
+import Forms from "./pages/Forms";
 const Page404 = lazy(() => import("./pages/404"));
 const Logout = lazy(() => import("./pages/Logout"));
 const Layout = lazy(() => import("./containers/Layout"));
@@ -25,6 +26,8 @@ function App() {
           <Route path="/logout" element={<Logout />} />
           <Route path="/create-account" element={<CreateAccount />} />
           <Route path="/forgot-password" element={<ForgotPassword />} />
+          
+          <Route path="/register" element={<Forms/>}/>
           <Route exact path="/app" element={<ProtectedRoute isAdmin={false} />}>
             <Route path="/app/:tag?" element={<Layout />} />
           </Route>

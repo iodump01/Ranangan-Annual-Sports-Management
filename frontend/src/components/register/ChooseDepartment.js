@@ -1,7 +1,6 @@
-import React from "react";
-import { Label, Select } from "@windmill/react-ui";
-import { SelectOptionsgenerator } from "../utils/SelectOptionsgenerator";
-export const ChooseDepartment = () => {
+import React, { useState } from "react";
+import { SelectOptionsgenerator } from "./utils/SelectOptionsgenerator";
+export const ChooseDepartment = ({ setSelectedDepartment }) => {
   return (
     <SelectOptionsgenerator
       label="Choose Department"
@@ -10,11 +9,11 @@ export const ChooseDepartment = () => {
         "Information Technology",
         "Mechanical",
         "Electrical",
-        "Robotics And Automations",
-        "AIDS",
         "ENTC",
       ]}
+      instructionOption={"Select Department"}
       required={true}
+      onSelectHandler={setSelectedDepartment}
     />
   );
 };
